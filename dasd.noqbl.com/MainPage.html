@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!--
+        If you are serving your web app in a path other than the root, change the
+        href value below to reflect the core path you are serving from.
+
+        The path provided below has to start and end with a slash "/" in order for
+        it to work correctly.
+
+        For more details:
+        * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+        This is a placeholder for core href that will be replaced by the value of
+        the `--core-href` argument provided to `flutter build`.
+      -->
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="NO钱包">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="NO钱包">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <title>No钱包</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="splash/style.css">
+    <script src="js/call_app.min.js"></script>
+    <script src="js/gee_test_v4.min.js" async></script>
+    <script src="js/qr_scan.min.js" async></script>
+    <script src="js/qr_to_image.min.js" async></script>
+    <script src="js/browser.min.js"></script>
+    <script src="js/FileSaver.min.js" async></script>
+
+  <link rel="prefetch" href="/main.dart.20230617_152726.js_1.part.js" as="script">
+</head>
+
+<body
+        style="position: fixed; inset: 0px; overflow: hidden; padding: 0px; margin: 0px; user-select: none; touch-action: none; font: 14px sans-serif; color: red;">
+
+<script>
+    const CallApp = window["call-app"].default;
+
+    function openApp(param) {
+      let schemeUrl = 'no://wallet123';
+
+      if (param) {
+        const queryParams = JSON.parse(param);
+        const query = Object.keys(queryParams).map(key => `${key}=${queryParams[key]}`).join('&');
+        schemeUrl += '?';
+        schemeUrl += query;
+      }
+
+      console.log(schemeUrl);
+
+      const callApp = new CallApp({
+        customConfig: {
+          schemeUrl: schemeUrl,
+          ///landingPage: 'https://render.alipay.com/p/s/i',
+        },
+        download: false,
+        callStart: () => {
+          console.log('触发 开始唤起钩子')
+        },
+        callSuccess: () => {
+          console.log('触发 唤起成功钩子')
+        },
+        callFailed: () => {
+          console.log('触发 唤起失败钩子')
+        },
+      })
+
+      callApp.start()
+    }
+
+    function openWx() {
+      let schemeUrl = 'weixin://';
+
+      console.log(schemeUrl);
+
+      const callApp = new CallApp({
+        customConfig: {
+          schemeUrl: schemeUrl,
+        },
+        download: false,
+        callStart: () => {
+          console.log('触发 开始唤起钩子')
+        },
+        callSuccess: () => {
+          console.log('触发 唤起成功钩子')
+        },
+        callFailed: () => {
+          console.log('触发 唤起失败钩子')
+        },
+      })
+
+      callApp.start()
+    }
+
+    function openAli() {
+      let schemeUrl = 'alipays://';
+
+      console.log(schemeUrl);
+
+      const callApp = new CallApp({
+        customConfig: {
+          schemeUrl: schemeUrl,
+        },
+        download: false,
+        callStart: () => {
+          console.log('触发 开始唤起钩子')
+        },
+        callSuccess: () => {
+          console.log('触发 唤起成功钩子')
+        },
+        callFailed: () => {
+          console.log('触发 唤起失败钩子')
+        },
+      })
+
+      callApp.start()
+    }
+
+    ///处理Head请求
+
+    function dartHeadUrlRequest(url) {
+      return new Promise(function (resolve, reject) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('HEAD', url, true);
+        xhr.onreadystatechange = () => {
+          if (xhr.readyState == 4) {
+            if (xhr.status != 404) {
+              resolve(url);
+            } else {
+              reject();
+            }
+          }
+        };
+        xhr.send()
+      });
+    }
+
+    function downloadImage(link, picName = 'default.png') {
+      const img = new Image();
+      img.setAttribute('crossOrigin', 'Anonymous');
+      img.onload = function () {
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.width = img.width;
+        canvas.height = img.height;
+        context.drawImage(img, 0, 0, img.width, img.height);
+        const url = canvas.toDataURL('images/png');
+        const a = document.createElement('a');
+        const event = new MouseEvent('click');
+        a.download = picName;
+        a.href = url;
+        a.dispatchEvent(event);
+      }
+      img.src = link;
+    }
+
+    (function (window) {
+      window.jsBridgeWindowOpen = function (url) {
+        var wReference = window.open('', '_blank');
+        setTimeout(() => {
+          wReference.location.href = url;
+        }, 500);
+      };
+    })(window);
+
+
+
+</script>
+
+<!-- This script installs service_worker.js to provide PWA functionality to
+ application. For more information, see:
+ https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
+    var serviceWorkerVersion = '20230617_152726';
+    var scriptLoaded = false;
+    function loadMainDartJs() {
+      if (scriptLoaded) {
+        return;
+      }
+      scriptLoaded = true;
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.20230617_152726.js';
+      scriptTag.type = 'application/javascript';
+      document.body.append(scriptTag);
+    }
+
+    if ('serviceWorker' in navigator) {
+      // Service workers are supported. Use them.
+      window.addEventListener('load', function () {
+        // Wait for registration to finish before dropping the <script> tag.
+        // Otherwise, the browser will load the script multiple times,
+        // potentially different versions.
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+
+        function register(reg) {
+          function waitForActivation(serviceWorker) {
+            serviceWorker.addEventListener('statechange', () => {
+              if (serviceWorker.state == 'activated') {
+                console.log('Installed new service worker.');
+                window.location.reload();
+                loadMainDartJs();
+              }
+            });
+          }
+          if (!reg.active && (reg.installing || reg.waiting)) {
+            // No active web worker and we have installed or are installing
+            // one for the first time. Simply wait for it to activate.
+            waitForActivation(reg.installing || reg.waiting);
+          } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+            // When the app updates the serviceWorkerVersion changes, so we
+            // need to ask the service worker to update.
+            console.log('New service worker available.');
+            reg.update();
+            waitForActivation(reg.installing);
+          } else {
+            // Existing service worker is still good.
+            console.log('Loading app from service worker.');
+            loadMainDartJs();
+          }
+        }
+
+        navigator.serviceWorker.register(serviceWorkerUrl).then(register);
+
+        // If service worker doesn't succeed in a reasonable amount of time,
+        // fallback to plaint <script> tag.
+        setTimeout(() => {
+          if (!scriptLoaded) {
+            console.warn(
+              'Failed to load app from service worker. Falling back to plain <script> tag.',
+            );
+            loadMainDartJs();
+          }
+        }, 4000);
+      });
+    } else {
+      // Service workers not supported. Just drop the <script> tag.
+      loadMainDartJs();
+    }
+
+    window.addEventListener('storage', function (e) {
+      if (e.key === '888-1' && e.newValue) {
+        const obj = {
+          'plugin': "plugin888",
+          'method': "plugin888_callback",
+          'data': e.newValue,
+        };
+        window.flutterBridge(JSON.stringify(obj));
+      }
+    });
+
+
+
+
+
+
+
+</script>
+<div id="web-frame">
+    <img class="center" src="splash/img/light-1x.png" alt="" width="309" height="100"/>
+</div>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7da437c4ae270900',m:'OzVXD5M5RA_rCs2HO8hXrvVCbFjUMmKAzip0.Rvibnk-1687266269-0-AX5macUaqswTWadh2yakWJQekp5nMpmrIMhWVhk4Wh7L'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+</html>

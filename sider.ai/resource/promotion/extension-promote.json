@@ -1,0 +1,277 @@
+{
+  "key": "ios-install-v1",
+  "desc": "04/21-5/31",
+  "startAt": 1682006400000,
+  "stopAt": 1688054400000,
+  "bill": {
+    "banner": {
+      "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB38AAAABCAYAAADermQhAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAeSURBVHgB7cABDQAAAMKg909tDjcoAAAAAAAAAO4NHf0AAUu0G/QAAAAASUVORK5CYII=",
+      "link": "https://sider.ai/app-download",
+      "style": {
+        "fontSize": "12px",
+        "fontWeight": "bold",
+        "height": "38px",
+        "lineHeight": 1.2,
+        "color": "rgba(0,0,0,0.85)",
+        "backgroundImage": "linear-gradient(123.36deg, rgba(255, 255, 255, 0.9) 1.09%, rgba(241, 229, 252, 0.9) 98.74%)",
+        "border": "1px solid #9370db"
+      },
+      "css": ".ph-content { font-size: 12px; padding-inline-end: 3em; } .ph-action { position: absolute; width: 3em; height: 3em; top: 50%; right: 1.5em; transform: translateY(-50%); background-size: contain; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEm0lEQVR4nO2ab0zUZRzAn5KYW2+a+cIXTVqleAeHfxCF+HOHxlWgUJ7HH0Hk3050NZ3ZDNd2QMzDTVZgttQ5iSyVPBQ5hUAM4o+6NV1m+cKtFuGLWjrZMhuefdrDuO3HpSDoODiez/Z58Xyf73fP9/m++t3vd0IoFAqFQqFQKBQKhUKh8BV6K4FBG9kZtJHfgzbQF7SB/c/lM0NMFV4qpGJOIQxxPT1zbMSJqcA8Gzd0Npi3noTgQoJ1NrrkWmfDrbNRYrQTIPyZsAKQetbywoZ8ig0FuGXcUMAFQy4vCH8lPA+k/4vnY1qUy29yb1EefeG5ZAh/JDIHpPfbM67jmaU5HPXkROZQE5bF08KfiMkG6XA50dlkx6zl9kDuWq6+vI4Fwl+IzwLpSHnLMtGbMvle5poy+ceUySYheEJMdsxrQKqNvdNF25ZuLm3uZLE2blzHdHMGlZ4acwZfJ1qZ9VgbsloJTErHkZjG9aR0GC+1PWzvBGlRJ3eLOim3XyFQu/96BpakNG7KusR0ehNTiX9sA0hOpTwlFcZbbQ/FHaDV3sHl0jYWanNWWJmdnEqHrE22ci8llTKj8TE8M1gsXF+9GiwWYoWPcLSDtzva6He0U1xbyzRPntXKNIuFYosF92DP3WlpPP9Ih2esAqnwIRVt8CB3tXHuw1aCtflpFmIzVtEz0Pub3Eq3kDrmw9e+AVLhQz4+C8Payt+7z7LNbudJT02+lRlZKTg9/WemsH1Mh+clg1T4kH2t8JB27G3lRW1t7ko25K6kPy+Zf/NXkjDqw9evAKl3vLqZbz9rgYlmdQt9NWeGXtS2gi3yDrYkmkc9gLcSQeodP9wME9Uvm/nFawAzB+9xa9QD2PwaSL3jdU0wUXU20qPtdWsiswbu8So3Rz2Ad80g9Y67GulwNcJEs+E0f7kaSRoyADN2eYetZppGPYDtr4BU+JCWU/AwNp+iu+UUc7W1Rct5u2g59+Qd3kvAPOrD7ctAKnxIuwuGtYE7bS62aR+K7GZm2OOp8/Rvj+f9MR3+gQmkwoecPwkPtJ4L51zotPllRiJLTfw80LuRvtJ41oz5cEcc18vjwBHru5eSF+vhPvZfPEH5d3t5ypNnNxJQHkuJIxb3QM9xdDmMj/goXBGDoyIGxlttDz8eB61XjvPDT04WaXM+imZ2RQwdsnZXNO6KaMrkQMSjYtcTWBXFjqooequiYLzU9nCtDgZ0cvdaHeVXaof+HK6MYnVlJDcHa3t3L8UkJiufLAWpNtbzFa2/HuNSj5MIbfygkel7llDpqdmzhPrdETwrJjP7I0A6Ut6BJej3R3BZ5u5bzJ29i9mEP7wSqw4H6Qg52dXh3B7MvXowwo9eih5aCNL77X0RzsxDC6j35Hy+gJqaMD97LX50Pki944fnYzoSRq/cOxLGrSNhpAt/pM4AUs/6GyMBTgPFdaG4ZdwZyvljBj/+NNYQwp8NIVAfSsIJA8En9XTJdYMed0MIJXIgwp85rWNXow60np5Hj0s3RT6P1+oJbAlm55lg/jgzlxstc/m0ST+F/iChUCgUCoVCoVAoFAqFGDf+A4WJ7lZZqd6EAAAAAElFTkSuQmCC\");};",
+      "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Get Sider for Mac/Android/iOS now!</div></a><div class=\"ph-action\"></div>"
+    },
+    "modal": {
+      "img": "",
+      "title": "",
+      "desc": "",
+      "link": "",
+      "linkLabel": ""
+    }
+  },
+  "locales": {
+    "zh_CN": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">现在获取Mac/Android/iOS的Sider！</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "zh_TW": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">現在就獲取 Mac/Android/iOS 的 Sider！</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "es": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">¡Obtén Sider para Mac/Android/iOS ahora!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "fr": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Obtenez Sider pour Mac/Android/iOS maintenant !</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ja": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">今すぐMac/Android/iOS用のSiderを入手してください！</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "de": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Hol dir jetzt Sider für Mac/Android/iOS!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ar": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">احصل على Sider لنظام التشغيل Mac/Android/iOS الآن!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ru": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Скачайте Sider для Mac/Android/iOS прямо сейчас!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "it": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Ottieni Sider per Mac/Android/iOS adesso!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ko": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">지금 Mac/Android/iOS용 Sider를 받으세요!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "hi": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">अब Mac/Android/iOS के लिए Sider प्राप्त करें!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "nl": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Download nu Sider voor Mac/Android/iOS!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "pl": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Pobierz teraz Sider dla Mac/Android/iOS!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "am": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">እንደ Mac/Android/iOS ለመጫን Sider ይግቡ!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "bg": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Вземете Sider за Mac/Android/iOS сега!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "bn": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">এখন ম্যাক / অ্যানড্রয়েড / আইওএসের জন্য সাইডার পান!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ca": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Obtén Sider per a Mac/Android/iOS ara mateix!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "cs": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Stáhněte si Sider pro Mac/Android/iOS nyní!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "da": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Få Sider til Mac/Android/iOS nu!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "el": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Αποκτήστε το Sider για Mac/Android/iOS τώρα!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "et": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Hankige Sider Mac/Android/iOS jaoks kohe!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "fa": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">اکنون Sider را برای Mac/Android/iOS دریافت کنید!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "fi": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Hanki Sider Mac/Android/iOS:lle nyt!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "fil": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Kumuha ng Sider para sa Mac/Android/iOS ngayon!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "gu": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">હવે મેક / એન્ડ્રોઇડ / iOS માટે સાઇડર મેળવો!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "he": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">קבל את Sider עכשיו עבור Mac/Android/iOS!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "hr": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Preuzmite Sider za Mac/Android/iOS sada!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "hu": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Szerezd meg most a Sider-t Mac/Android/iOS-ra!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "id": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Dapatkan Sider untuk Mac/Android/iOS sekarang!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "kn": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">ಈಗ ಮ್ಯಾಕ್ / ಆಂಡ್ರಾಯ್ಡ್ / ಐಒಎಸ್ ಗೆ ಸೈಡರ್ ಪಡೆಯಿರಿ!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "lt": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Gaukite Sider dabar Mac/Android/iOS!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "lv": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Saņem Sider tagad Mac/Android/iOS ierīcēm!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ml": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">ഇപ്പോൾ മാക്ക് / ആൻഡ്രോയിഡ് / ഐഓഎസ് സൈഡർ നേടുക!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "mr": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">आता Mac/Android/iOS साठी सायडर मिळवा!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ms": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Dapatkan Sider untuk Mac/Android/iOS sekarang!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "no": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Få Sider for Mac/Android/iOS nå!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ro": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Obțineți Sider pentru Mac/Android/iOS acum!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "sk": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Získajte Sider pre Mac/Android/iOS teraz!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "sl": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Pridobite Sider za Mac/Android/iOS zdaj!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "sr": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Sada preuzmite Sider za Mac/Android/iOS!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "sv": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Skaffa Sider för Mac/Android/iOS nu!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "sw": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Pata Sider kwa Mac/Android/iOS sasa!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ta": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">இப்போது மேக் / ஆண்ட்ராய்டு / iOS க்கு சைடர் பெறுங்கள்!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "te": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">ఇప్పుడే మ్యాక్ / ఆండ్రాయిడ్ / iOS కోసం సైడర్ పొందండి!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "th": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">ดาวน์โหลด Sider สำหรับ Mac/Android/iOS ได้เลย!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "tr": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Şimdi Mac/Android/iOS için Sider edinin!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "uk": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Отримайте Sider для Mac/Android/iOS зараз!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "ur": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">اب Sider کو Mac/Android/iOS کے لئے حاصل کریں!</div></a><div class=\"ph-action\"></div>"
+      }
+    },
+    "vi": {
+      "banner": {
+        "content": "<a href=\"https://sider.ai/app-download\" target=\"_blank\"><div style=\"padding:4px 10px;color:rgba(0,0,0,0.85);\">Tải Sider cho Mac/Android/iOS ngay bây giờ!</div></a><div class=\"ph-action\"></div>"
+      }
+    }
+  }
+}
